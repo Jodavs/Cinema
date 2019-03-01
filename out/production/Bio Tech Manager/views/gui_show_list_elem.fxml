@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.* ?>
+
+<fx:root fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="400.0" styleClass="elem_normal" stylesheets="@show_list_styles.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+       <Label fx:id="timeLabel" layoutX="51.0" layoutY="11.0" text="20:00" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="10.0">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <Label fx:id="theaterLabel" layoutX="190.0" layoutY="11.0" text="1" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="10.0">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <Label layoutX="8.0" layoutY="10.0" text="Start:" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <Label layoutX="162.0" layoutY="12.0" text="Sal:" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="10.0">
+           <font>
+               <Font size="14.0" />
+           </font>
+       </Label>
+       <Polygon layoutX="377.0" layoutY="30.0" rotate="90.0" scaleX="0.15" scaleY="0.15" stroke="BLACK" strokeType="INSIDE">
+           <points>
+               <Double fx:value="-50.0" />
+               <Double fx:value="40.0" />
+               <Double fx:value="50.0" />
+               <Double fx:value="40.0" />
+               <Double fx:value="0.0" />
+               <Double fx:value="-60.0" />
+           </points>
+       </Polygon>
+   </children>
+</fx:root>

@@ -1,0 +1,29 @@
+.elem_normal {
+    -fx-background-radius: 0;
+    -fx-border-style: None None Solid None;
+    -fx-border-color: #aaa;
+    -fx-background-color: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+}
+
+.elem_active {
+    -fx-background-radius: 0;
+    -fx-border-style: None None Solid None;
+    -fx-border-color: #aaa;
+    -fx-background-color: linear-gradient(to bottom, #cccccc 0%,#aaaaaa 100%);
+}
+
+.elem_bottom {
+    -fx-border-radius: 0 0 10 10;
+    -fx-background-radius: 0 0 10 10;
+}
+
+.header_top {
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.header {
+    -fx-border-st: solid;
+    -fx-border-color: #aaa;
+    -fx-background-color: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+}
